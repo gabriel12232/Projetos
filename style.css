@@ -1,0 +1,134 @@
+* {
+    outline: none;
+    transition: all 1s ease;
+    background-color: #000000b2;
+  }
+
+@font-face {
+    font-family: fonte;
+    src: url(https://fontsfree.net//wp-content/fonts/basic/sans-serif//FontsFree-Net-Geometria-ExtraBold.ttf);
+    }
+
+
+.box {
+    position: absolute;
+    background-color: #141414;
+    width: 40%;
+    height: 700px;
+    display: block;
+    border-radius: 20px;
+    left: 30%;
+    top: 10%;
+    box-shadow: #ffffff 3px 10px 20px;
+    border-bottom: 3px solid #ffffff;
+    
+}
+
+h1 {
+    background-color: #141414;
+    position: center;
+    color: rgb(0, 132, 255);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 200px;
+    
+}
+
+h2 {
+background-color:#141414 ;
+position: center;
+color: rgb(0, 132, 255);
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+top: 100px;
+left: 150px;
+}
+
+.btn {
+    position: absolute;
+    border: none;
+    background-color: #303030;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    height: 10%;
+    cursor: pointer;
+    font-size: 150%;
+    top: 65%;
+    left: 24%;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    transform: translateX(1px) scale(0.95);
+        border-left: 3px solid #ffffff;
+
+}
+
+.btn2 {
+    position: absolute;
+    border: none;
+    background-color: #141414;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 20%;
+    height: 7%;
+    cursor: pointer;
+    font-size: 150%;
+    top: 70%;
+    left: 745px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    transform: translateX(1px) scale(0.95);
+}
+
+.caixa-texto {
+background-color: #303030;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+border-radius: 7px;
+position: absolute;
+color: #ffffff;
+border: none;
+width: 50%;
+height: 10%;
+top: 35%;
+left: 24%;
+font-size: 25px;
+border-left: 3px solid #ffffff;
+
+}
+
+.caixa-texto2 {
+    text-align: center;
+    border-radius: 7px;
+    position: absolute;
+    color: #000000;
+    border: none;
+    width: 50%;
+    height: 10%;
+    top: 50%;
+    left: 24%;
+    font-size: 25px;
+    background-color: #303030;
+    color: #ffffff;
+    border-left: 3px solid #ffffff;
+    }
+
+    .btn:hover {
+        background-color: #00a5f1;    
+    }
+    
+    .idtext {
+    background-color: #141414;
+    color: #ffffff;
+    }
+
+
+    .idmsg {
+        background-color: #141414;
+        text-align: center;
+        top: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
